@@ -32,49 +32,49 @@ void loop() {
 
   Serial.println("Jarak: " + String(distance) + " cm");
 
-  if (distance <= 2) {
+  if (distance <= 4) {
     // Nyala Hijau, Kuning, Merah
     digitalWrite(redLedPin, HIGH);
     digitalWrite(yellowLedPin, HIGH);
     digitalWrite(greenLedPin, HIGH);
     digitalWrite(buzzerPin, HIGH);
 
-  } else if (distance <= 4) {
+  } else if (distance <= 8) {
     // Nyala Hijau, Kuning, Merah Kedip
     digitalWrite(greenLedPin, HIGH);
     digitalWrite(yellowLedPin, HIGH);
     blinkRed(redLedPin);
     blinkRed(buzzerPin);
 
-  } else if (distance <= 6) {
+  } else if (distance <= 10) {
     // Nyala Hijau, Kuning
     digitalWrite(greenLedPin, HIGH);
     Yellow(yellowLedPin);
     Yellow(buzzerPin);
     digitalWrite(redLedPin, LOW);  
 
-  } else if (distance <= 8) {
+  } else if (distance <= 13) {
     // Nyala Hijau, Kuning Kedip
     digitalWrite(greenLedPin, HIGH);
     blinkYellow(yellowLedPin);
     blinkYellow(buzzerPin);
     digitalWrite(redLedPin, LOW);  
 
-  } else if (distance <= 10) {
+  } else if (distance <= 16) {
     // Nyala Hijau
     Green(greenLedPin);
     Green(buzzerPin);
     digitalWrite(yellowLedPin, LOW);
     digitalWrite(redLedPin, LOW);
 
-  } else if (distance <= 12) {
+  } else if (distance <= 19) {
     // Kedip Hijau
     blinkGreen(greenLedPin);
     blinkGreen(buzzerPin);
     digitalWrite(yellowLedPin, LOW);
     digitalWrite(redLedPin, LOW);
     
-  } else if (distance >= 12) {
+  } else if (distance >= 21) {
     digitalWrite(greenLedPin, LOW);
     digitalWrite(buzzerPin, LOW);
     digitalWrite(yellowLedPin, LOW);
