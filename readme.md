@@ -16,7 +16,7 @@ Memberikan Notifikasi Atau Indikator Ketika :
  - **Jarak lebih atau sama dengan 21 cm**, tidak ada lampu yang menyala
 
 ## Alat-Alat Dan Bahan Yang Dibutuhkan
- - 1x Arduino Nano
+ - 1x Arduino Nano / Arduino Uno
  - 1x Buzzer 3V
  - 1x HC-SR04 Ultrasonic Sensor
  - 1x Led Traffic Light
