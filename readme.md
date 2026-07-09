@@ -25,6 +25,7 @@ Memberikan Notifikasi Atau Indikator Ketika :
 
 ## Rangkaian / Sketch Project
 <img src="/image/screenshoot-rangkaian.png" alt="Rangkaian Project" style="border-radius:18px;">
+<img src="/image/screenshoot-rangkaian-3.png" alt="Rangkaian Project" style="border-radius:18px;">
 
 ## Hasil Project
 <img src="/image/image-1.jpeg" alt="Hasil-project-1" style="border-radius:18px;">
